@@ -1,22 +1,29 @@
 # Easy Visuals Claude
 
-**Easy Visuals Claude** is a free SaaS platform that delivers powerful visual solutions to everyone — no paywalls, no limits.
+**Easy Visuals Claude** is a mini SaaS platform offering visual analytics solutions as an affordable alternative to tools like Power BI — priced per solution, not per user.
 
-## What is it?
+## The Problem
 
-Easy Visuals Claude helps users create, customize, and share stunning visual content through a simple and intuitive interface. Built with accessibility and affordability in mind, our platform makes professional-grade visuals available to individuals, small businesses, and creators at no cost.
+Power BI and similar tools are powerful, but their licensing model is expensive:
 
-## Core Features
+- Billed **per user**, not per solution
+- Costs scale with every person who needs access
+- Small teams and businesses end up paying for seats, not value
 
-- **Visual Generation** — Create charts, diagrams, infographics, and more in seconds
-- **AI-Powered** — Leverage Claude AI to generate and enhance visuals from natural language prompts
-- **Free Forever** — Core features are and will remain free for all users
-- **No Installation** — Fully browser-based, works on any device
-- **Export Ready** — Download your visuals in multiple formats (PNG, SVG, PDF)
+## Our Solution
 
-## Aim
+Easy Visuals Claude flips the model. You pay for the **visual solution** you need — not for every person who views it. This makes it accessible for teams of any size.
 
-Our mission is to democratize visual communication. We believe great visuals should not be a privilege reserved for those who can afford expensive tools. Easy Visuals Claude is built to give everyone — from students to startups — the power to communicate visually with clarity and impact.
+- Pay per **solution**, not per user
+- Share dashboards and visuals with unlimited viewers
+- No bloated enterprise contracts
+
+## What It Does
+
+- Create interactive charts, dashboards, and visual reports
+- AI-powered visual generation using Claude
+- Simple interface — no data engineering background required
+- Export and embed visuals anywhere
 
 ## Getting Started
 
@@ -42,7 +49,7 @@ python easyvisuals.py
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues, suggest features, or submit pull requests.
+Contributions are welcome! Open issues, suggest features, or submit pull requests.
 
 ## License
 
