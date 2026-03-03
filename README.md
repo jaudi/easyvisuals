@@ -1,56 +1,81 @@
-# Easy Visuals Claude
+# EasyVisuals
 
-**Easy Visuals Claude** is a mini SaaS platform offering visual analytics solutions as an affordable alternative to tools like Power BI — priced per solution, not per user.
+Visual analytics for companies — priced per **solution**, not per user.
 
 ## The Problem
 
-Power BI and similar tools are powerful, but their licensing model is expensive:
+Power BI charges per user. A team of 50 people viewing one dashboard pays 50 licences.
+EasyVisuals flips the model: you pay once for the solution, your whole company uses it.
 
-- Billed **per user**, not per solution
-- Costs scale with every person who needs access
-- Small teams and businesses end up paying for seats, not value
+---
 
-## Our Solution
+## Our Products
 
-Easy Visuals Claude flips the model. You pay for the **visual solution** you need — not for every person who views it. This makes it accessible for teams of any size.
+### 1. 🐳 Custom Streamlit Dashboard — Docker Delivery
+We build a tailored Streamlit dashboard for your data.
+You tell us your columns, KPIs, and chart types.
+We deliver a **Docker container** you run inside your own environment.
 
-- Pay per **solution**, not per user
-- Share dashboards and visuals with unlimited viewers
-- No bloated enterprise contracts
+- ✅ Runs entirely inside your company (data never leaves)
+- ✅ Unlimited internal users — no per-seat cost
+- ✅ No dependency on external cloud services
+- ✅ One-time delivery, low friction for your IT team
 
-## What It Does
+**Best for:** Companies with internal infrastructure who want full control.
 
-- Create interactive charts, dashboards, and visual reports
-- AI-powered visual generation using Claude
-- Simple interface — no data engineering background required
-- Export and embed visuals anywhere
+---
 
-## Getting Started
+### 2. 🔗 Custom Streamlit Dashboard — Hosted Link
+Same custom dashboard, but we host it for you.
+You get a **professional URL** to share with your team or clients — no setup required on your side.
+
+- ✅ Ready to use immediately
+- ✅ Hosted on professional infrastructure (not Streamlit Cloud)
+- ✅ We manage updates and uptime
+- ✅ Shareable with unlimited viewers
+
+**Best for:** Companies that want zero IT involvement and a fast go-live.
+
+---
+
+### 3. 📊 Power BI Consultancy — Finance
+Expert consultancy for finance teams already using Power BI.
+We help you get more value from your existing investment: reports, data models, DAX, governance.
+
+- ✅ Finance-specific expertise (P&L, cash flow, budgeting, forecasting)
+- ✅ Report design and optimisation
+- ✅ Data model architecture
+- ✅ Training for your finance team
+
+**Best for:** Finance departments that need Power BI expertise without hiring full-time.
+
+---
+
+## The Demo Tool
+
+The Streamlit app in this repository is our **marketing demo**.
+It lets prospects define columns, upload data, build charts, and export a PDF —
+so they can see what we deliver before they commit.
 
 ```bash
-# Clone the repository
-git clone https://github.com/jaudi/easyvisuals.git
-
-# Navigate to the project
-cd easyvisuals
-
-# Install dependencies
+# Run the demo locally
 pip install -r requirements.txt
-
-# Run the app
-python easyvisuals.py
+streamlit run easyvisuals.py
 ```
+
+---
 
 ## Tech Stack
 
-- **Backend:** Python
-- **AI:** Claude (Anthropic)
-- **Frontend:** Coming soon
+- **Dashboards:** Python · Streamlit · Plotly · Pandas
+- **PDF Export:** ReportLab
+- **Delivery:** Docker
+- **Hosting (Product 2):** DigitalOcean / Railway / Azure Container Apps
 
-## Contributing
+## Contact
 
-Contributions are welcome! Open issues, suggest features, or submit pull requests.
+Interested in a dashboard for your company? Open an issue or reach out via GitHub.
 
 ## License
 
-MIT License — free to use, modify, and distribute.
+MIT License
